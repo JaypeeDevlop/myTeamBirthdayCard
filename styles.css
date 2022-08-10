@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #f4f4f4;
+    background: grey;
 }
 
 .jaypee {
@@ -67,10 +67,10 @@ body {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    background:  url(img/Neaty.jpg) no-repeat center center/cover;
+    background:  url(img/Neaty\ \(1\).jpg) no-repeat center center/cover;
     position: absolute;
     top: 200px;
-    right: 40px;
+    right: 35px;
     /* transform: translate(-50%, -50%); */
     z-index: 3;
     border: 20px white solid;
@@ -78,15 +78,15 @@ body {
 
 .circle {
     position: absolute;
-    top: 23%;
+    top: 25.5%;
     z-index: 2;
-    right: 1%;
+    right:1.5%;
     
     border: none;
     border-radius: 50%;
     background-color: black;
-    height: 420px;
-    width: 420px;
+    height: 400px;
+    width: 400px;
     color: black;
     overflow: hidden;
 }
@@ -97,7 +97,7 @@ body {
     height: 150%;
     border-radius: 50%;
     position: relative;
-    top: -25%;
+    top: -20%;
 }
 
 .circle .period i {
@@ -177,10 +177,6 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     color: rgb(226, 225, 225);
-}
-
-.celeb-info {
-
 }
 
 .call {
