@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.jaypee {
+    position: absolute;
+    z-index: 1;
+    left: 48%;
+    padding-top: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: orange;
+}
+
+.say {
+    position: absolute;
+    z-index: 2;
+    left: 65%;
+    top: 13%;
+    font-size: 40px;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    background-color: rgb(2, 2, 122);
+     width: 750px;
+    height: 100vh;
+    margin: auto; 
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    width: 1000px;
+    height: 1000px;
+    background-color: cornsilk;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    top: -600px;
+    right: -550px;
+}
+
+.container::after {
+    content: "";
+    width: 1000px;
+    height: 1000px;
+    background-color: cornsilk;
+    z-index: 1;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -600px;
+    right: -600px;
+}
+
+.pics {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background:  url(img/Neaty.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    /* transform: translate(-50%, -50%); */
+    z-index: 3;
+    border: 20px white solid;
+}
+
+.circle {
+    position: absolute;
+    top: 23%;
+    z-index: 2;
+    right: 1%;
+    
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    height: 420px;
+    width: 420px;
+    color: black;
+    overflow: hidden;
+}
+
+.circle .period {
+    background-color: white;
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+    position: relative;
+    top: -25%;
+}
+
+.circle .period i {
+    color: grey;
+    width: 10px;
+    height: 10px;
+    z-index: 3 ;
+}
+
+.birthday {
+    font-family: 'Nunito Sans', sans-serif;
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.name {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    color: #f4f4f4;
+}
+
+.happy {
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 50px;
+    color: #f4f4f4;
+    font-weight: 500;
+}
+.celeb-before {
+    content: "open-quote";
+}
+
+.celeb-contact {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.celeb-contact a {
+    color: orange;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.celeb-contact i {
+    background: orange;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone, .whatsapp, .email {
+    display: flex;
+    gap: 10px;
+   align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 50px;
+    gap: 40px;
+}
+
+.celeb-message {
+    /* padding-bottom: 10px; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: rgb(226, 225, 225);
+}
+
+.celeb-info {
+
+}
+
+.call {
+    color: #f4f4f4;
+}
+
+.triangle {
+    position: relative;
+    z-index: 2;
+    left: 65%;
+    top: 5%;
+    color: blue;
+}
+
+.triangle i {
+    height: 5px;
+    width: 7px;
+}
